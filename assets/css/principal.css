@@ -1,0 +1,9 @@
+.principal {
+    position: absolute;
+    height: calc(100vh - 72px);
+    width: 100%;
+    background-color: #fefefe;
+    background-image: url("../img/fundo-index.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

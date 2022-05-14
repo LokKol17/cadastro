@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="./assets/css/principal.css">
+    <link rel="stylesheet" href="./assets/css/principal/login.css">
+    <link rel="stylesheet" href="./assets/css/principal/login/login-botao.css">
+    <link rel="stylesheet" href="./assets/css/principal/login/login-descricao.css">
+    <link rel="stylesheet" href="./assets/css/principal/login/login-nick-input.css">
+    <link rel="stylesheet" href="./assets/css/principal/login/login-nick-label.css">
+    <link rel="stylesheet" href="./assets/css/principal/login/login-senha-input.css">
+    <link rel="stylesheet" href="./assets/css/principal/login/login-senha-label.css">
+    <link rel="stylesheet" href="./assets/css/principal/login/login-titulo.css">
+
+
+    <title>Login</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__logo"></div>
+    </header>
+    <main class="principal">
+        <section class="login">
+           <h1 class="login__titulo">Cofee Gaming</h1>
+           <p class="login__descricao">A cofee gaming é uma plataforma de gaming</p>
+
+            <label for="nick" class="login__nick--label">Nickname</label>
+            <input type="text" id="nick" class="login__nick--input">
+            <br>
+            <label for="senha" class="login__senha--label">Senha</label>
+            <input type="text" id="senha" class="login__senha--input">
+
+            <button class="login__botao" onclick="entrar()">Entrar</button>
+            <p id="aviso" class="aviso"></p>
+        </section>
+
+
+
+    </main>
+    <footer>
+
+
+
+    </footer>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.login__senha--input {
+    border-radius: 7px;
+    display: block;
+    width: 70%;
+    height: 25px;
+    margin-top: 5px;
+    font-size: 1.3rem;
+}
+.login__senha--input:focus {
+    outline: 1.5px solid #16120d;
+}
