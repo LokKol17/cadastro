@@ -1,0 +1,6 @@
+.conteudo {
+    height: calc(200vh - 72px);
+    background-color: #fefefe;
+    background: url("../../../img/bg-geral.png");
+    background-repeat: repeat;
+}

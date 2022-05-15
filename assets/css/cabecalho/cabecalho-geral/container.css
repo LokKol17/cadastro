@@ -1,0 +1,11 @@
+.cabecalho .container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.container > h1 {
+    font-family: var(--font1);
+    color: #68553C;
+}

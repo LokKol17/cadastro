@@ -1,0 +1,9 @@
+.cabecalho__logo {
+    display: inline-block;
+    margin-left: 3rem;
+    background-image: url("../../../img/logos/coffee.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
